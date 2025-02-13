@@ -263,10 +263,15 @@
     <Content Include="Views\Gymaster\Components\AboutUs.cshtml" />
     <Content Include="Views\Gymaster\Components\Hero.cshtml" />
     <Content Include="Views\Hero\Index.cshtml" />
+    <Content Include="Views\Carousel\Index.cshtml" />
+    <Content Include="Views\HeaderNavigation\Index.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CarouselController.cs" />
+    <Compile Include="Controllers\HeaderNavigationController.cs" />
     <Compile Include="Controllers\HeroController.cs" />
+    <Compile Include="Models\HeaderModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -281,7 +286,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

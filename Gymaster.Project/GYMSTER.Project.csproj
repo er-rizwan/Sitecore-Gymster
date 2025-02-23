@@ -271,6 +271,7 @@
     <Compile Include="Controllers\CarouselController.cs" />
     <Compile Include="Controllers\HeaderNavigationController.cs" />
     <Compile Include="Controllers\HeroController.cs" />
+    <Compile Include="Models\CarouselModel.cs" />
     <Compile Include="Models\HeaderModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

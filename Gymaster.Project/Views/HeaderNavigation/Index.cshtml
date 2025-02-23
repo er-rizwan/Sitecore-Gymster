@@ -1,7 +1,8 @@
 ﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
 @using Sitecore.Data.Items
-@model List<Item>
+@using GYMSTER.Project.Models
+@model HeaderModel
 
 <!-- Navigation Start -->
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0 px-lg-5">
@@ -13,25 +14,28 @@
     </button>
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav mr-auto py-0">
-            @*<a href="index.html" class="nav-item nav-link active">Home</a>
-        <a href="about.html" class="nav-item nav-link">About</a>
-        <a href="class.html" class="nav-item nav-link">Classes</a>
-        <a href="team.html" class="nav-item nav-link">Trainers</a>
-        <div class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-            <div class="dropdown-menu rounded-0 m-0">
-                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-            </div>
-        </div>
-        <a href="contact.html" class="nav-item nav-link">Contact</a>*@
-            @foreach (var navigationItem in Model)
+            @foreach (var navigationItem in Model.Navigations)
             {
-                var activeClass = Sitecore.Mvc.Presentation.PageContext.Current.Item.ID == navigationItem.ID ? "active" : string.Empty;
-                <a href="@Sitecore.Links.LinkManager.GetItemUrl(navigationItem)" class="nav-item nav-link @activeClass">
-                @Html.Sitecore().Field("Navigation Title", navigationItem)
+                if (navigationItem.Children != null && navigationItem.Children.Count > 0)
+                {
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">@navigationItem.NavigationTitle</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            @foreach (var item in navigationItem.Children)
+                            {
+                                <a href=@item.NavigationURL class="dropdown-item"> @item.NavigationTitle</a>
+                            }
+
+                        </div>
+                    </div>
+                }
+                //var activeClass = Sitecore.Mvc.Presentation.PageContext.Current.Item.ID == navigationItem.ID ? "active" : string.Empty;
+                else
+                {
+                <a href="@navigationItem.NavigationURL" class="nav-item nav-link @navigationItem.IsActiveLink">
+                   @navigationItem.NavigationTitle
                 </a>
+                }
             }
 
         </div>

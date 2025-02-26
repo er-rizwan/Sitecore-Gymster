@@ -1,0 +1,21 @@
+﻿---
+ID: "33874730-bfe9-4a29-b515-6b3083859f49"
+Parent: "5d34d043-d025-4a9a-bb77-3280f31b0c98"
+Template: "1a8d5773-3202-462c-85f3-ebcca540664f"
+Path: /sitecore/content/Gymster/Home/About
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250211T045733Z
+    - ID: "72d141be-d43f-4c91-90b9-dabc1d4583f0"
+      Hint: Show In Navigation
+      Type: Checkbox
+      Value: 1
+    - ID: "753d0727-dfb4-4eec-a0c1-7bcf8f67a7b1"
+      Hint: Navigation Title
+      Value: About

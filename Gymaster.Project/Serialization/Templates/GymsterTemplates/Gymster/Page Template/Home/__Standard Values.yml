@@ -1,0 +1,41 @@
+﻿---
+ID: "d03974dc-5742-4096-bd6d-712e2d1f759c"
+Parent: "8138808d-5455-4042-81dc-cdf67b44a4cc"
+Template: "8138808d-5455-4042-81dc-cdf67b44a4cc"
+Path: /sitecore/templates/Gymster/Page Template/Home/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{0168C0DC-D562-4C9A-8F4A-A16C9E71237F}">
+        <p
+          uid="{B5C85047-5C7D-41B6-B5D9-819BFA1575E5}"
+          key="main"
+          md="{5E8524D1-7291-49E8-979E-397C67637657}" />
+        <r
+          id="{DC9DBB90-87EC-46E8-972A-284BB58BB1A8}"
+          ph="AboutUs"
+          uid="{83031CFE-925B-4DBE-B69E-E08FC2E1418F}" />
+        <r
+          id="{D0A949BC-BCCF-49F9-86BB-08F035E9CE50}"
+          ph="header-nav"
+          uid="{CF7CD4C1-47E9-4FF6-8538-38F9E33A1414}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250130T121314Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

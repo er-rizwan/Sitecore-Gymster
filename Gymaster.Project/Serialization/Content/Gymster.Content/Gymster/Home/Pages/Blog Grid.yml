@@ -1,0 +1,17 @@
+﻿---
+ID: "4ff82b98-464c-485b-bc36-b2da618a8002"
+Parent: "ccfb05ec-a284-4f1a-bb51-d7dc7be2b94b"
+Template: "1a8d5773-3202-462c-85f3-ebcca540664f"
+Path: /sitecore/content/Gymster/Home/Pages/Blog Grid
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250211T045932Z
+    - ID: "753d0727-dfb4-4eec-a0c1-7bcf8f67a7b1"
+      Hint: Navigation Title
+      Value: Blog Grid

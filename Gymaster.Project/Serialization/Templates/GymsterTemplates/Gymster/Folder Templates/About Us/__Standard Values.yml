@@ -1,0 +1,26 @@
+﻿---
+ID: "cd5821a2-105f-442f-9584-3b6f1db8a008"
+Parent: "62758c27-bb2f-4787-95f7-3b9ed96be9ca"
+Template: "62758c27-bb2f-4787-95f7-3b9ed96be9ca"
+Path: /sitecore/templates/Gymster/Folder Templates/About Us/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: network/32x32/knight.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{094CC389-21CA-485B-A9BA-7AF82800B617}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250217T062105Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

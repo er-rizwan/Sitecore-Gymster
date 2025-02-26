@@ -1,0 +1,69 @@
+﻿---
+ID: "5d34d043-d025-4a9a-bb77-3280f31b0c98"
+Parent: "ea0b826f-ac14-4eae-b9db-40f0d467fda9"
+Template: "8138808d-5455-4042-81dc-cdf67b44a4cc"
+Path: /sitecore/content/Gymster/Home
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: core3/32x32/home_green_h.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{1A8D5773-3202-462C-85F3-EBCCA540664F}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{71134155-0496-4312-9D1F-3982D89B9CB6}"
+          p:after="p[@uid='{B5C85047-5C7D-41B6-B5D9-819BFA1575E5}']"
+          s:ds="{81FEA3D1-83E2-44F7-BC50-755D20E732D5}"
+          s:id="{D222F87C-014F-4DBD-8B0C-391567BD45FA}"
+          s:par="Slide Size=2"
+          s:ph="Main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A71CF67A-1463-4262-8949-EDE59E02A7DE}"
+          p:after="r[@uid='{71134155-0496-4312-9D1F-3982D89B9CB6}']"
+          s:ds="{C502A9BD-7286-4E18-84FD-EDB644AFAF57}"
+          s:id="{B0B63CE0-7483-4CE5-9CBD-FF4A8E7EAB5D}"
+          s:par=""
+          s:ph="Main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{83031CFE-925B-4DBE-B69E-E08FC2E1418F}"
+          s:ccb="Clear on publish"
+          s:ds="{ECB7EC9B-68FD-409D-A64A-FB7EA459E389}"
+          s:par=""
+          s:ph="Main" />
+        <r
+          uid="{A67FDE03-8E61-4B7A-B27A-BCFFFFE79934}"
+          p:after="*[1=2]"
+          s:ds="{C502A9BD-7286-4E18-84FD-EDB644AFAF57}"
+          s:id="{149A1CE5-F985-4FDC-B61E-D2A67670749A}"
+          s:par=""
+          s:ph="Main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250130T061742Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "753d0727-dfb4-4eec-a0c1-7bcf8f67a7b1"
+      Hint: Navigation Title
+      Value: Home

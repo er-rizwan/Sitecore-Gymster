@@ -1,0 +1,31 @@
+﻿---
+ID: "ecb7ec9b-68fd-409d-a64a-fb7ea459e389"
+Parent: "ece92ea1-fdb3-429e-8379-8235b1126a52"
+Template: "094cc389-21ca-485b-a9ba-7af82800b617"
+Path: /sitecore/content/Gymster/Data/About Us/About Us Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "136d09c6-d7df-40db-ab35-7da13f4830dd"
+      Hint: Title
+      Value: About Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250202T162242Z
+    - ID: "61218177-80c6-4c6f-b31f-52238100552b"
+      Hint: Summary
+      Value: Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no labore lorem sit clita duo justo magna dolore
+    - ID: "a2778678-099a-4453-82e7-81008deaaaff"
+      Hint: About Image
+      Value: |
+        <image mediaid="{1C9699C6-AB2C-41C0-A04A-D2B3C10DAF38}" />
+    - ID: "dbe3e23b-8e47-4369-a5c4-629f7b258290"
+      Hint: Description
+      Value: |
+        <span style="color: #686a6f; background-color: #ffffff;">Nonumy erat diam duo labore clita. Sit magna ipsum dolor sed ea duo at ut. Tempor sit lorem sit magna ipsum duo. Sit eos dolor ut sea rebum, diam sea rebum lorem kasd ut ipsum dolor est ipsum. Et stet amet justo amet clita erat, ipsum sed at ipsum eirmod labore lorem.</span>
+    - ID: "f3463d02-6e79-47e7-8b97-50ef7255136b"
+      Hint: SubTitle
+      Value: Welcome to Gymster

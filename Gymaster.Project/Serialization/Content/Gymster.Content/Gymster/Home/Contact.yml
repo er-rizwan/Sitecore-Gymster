@@ -1,0 +1,21 @@
+﻿---
+ID: "4c6d7c60-ccba-4691-826d-17a8a2359937"
+Parent: "5d34d043-d025-4a9a-bb77-3280f31b0c98"
+Template: "1a8d5773-3202-462c-85f3-ebcca540664f"
+Path: /sitecore/content/Gymster/Home/Contact
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250211T045733Z
+    - ID: "753d0727-dfb4-4eec-a0c1-7bcf8f67a7b1"
+      Hint: Navigation Title
+      Value: Contact

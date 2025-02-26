@@ -1,0 +1,17 @@
+﻿---
+ID: "1b239619-fadf-4808-b5cd-0a6b63097b70"
+Parent: "ccfb05ec-a284-4f1a-bb51-d7dc7be2b94b"
+Template: "1a8d5773-3202-462c-85f3-ebcca540664f"
+Path: /sitecore/content/Gymster/Home/Pages/Blog Details
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250211T045932Z
+    - ID: "753d0727-dfb4-4eec-a0c1-7bcf8f67a7b1"
+      Hint: Navigation Title
+      Value: Blog Details

@@ -1,0 +1,36 @@
+﻿---
+ID: "f224dbf0-5bf2-477d-a5b3-dfc90bc9f912"
+Parent: "4dfddb0d-57c1-4486-bd44-021115e4aa13"
+Template: "b7ee7eeb-f27a-40b7-9ffd-5a5086a08730"
+Path: /sitecore/content/Gymster/Data/Carousel Slides/Carousel Slide 3
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250208T160206Z
+    - ID: "30dd5f3f-2a78-4ebe-91fd-7f7b492db7ae"
+      Hint: Title
+      Value: Best Gym Center
+    - ID: "3d25df73-0c51-4c94-9ebb-b22863d39df8"
+      Hint: Secondary Link
+      Value: |
+        <link text="Contact Us" anchor="Contact Us" linktype="internal" class="" title="Contact Us"  querystring="" id="{5D34D043-D025-4A9A-BB77-3280F31B0C98}" />
+    - ID: "83c82e3c-78a0-4d87-942d-16be44204e67"
+      Hint: Image
+      Value: |
+        <image mediaid="{BF01ED7B-1DB0-45F6-99B8-7C3B55DE1FCB}" />
+    - ID: "b9a27d01-1ef9-4b03-8303-fdfc81438592"
+      Hint: Primary Link
+      Value: |
+        <link text="Join Us" anchor="Join Us" linktype="internal" class="" title="Join Us"  querystring="" id="{5D34D043-D025-4A9A-BB77-3280F31B0C98}" />
+    - ID: "c98ff4fd-5a43-4d97-a93d-b3fdf81990f7"
+      Hint: SubTitle
+      Value: Build Your Body Strong With Gymster

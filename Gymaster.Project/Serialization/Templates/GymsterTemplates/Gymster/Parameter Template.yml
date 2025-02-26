@@ -1,0 +1,18 @@
+﻿---
+ID: "67810dcc-3f49-4d4a-a0cc-5e17a1113ac7"
+Parent: "d88bf338-3cdc-42ea-8361-1077d1e99627"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Gymster/Parameter Template
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250217T135226Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

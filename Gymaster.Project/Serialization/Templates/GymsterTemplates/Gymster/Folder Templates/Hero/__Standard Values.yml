@@ -1,0 +1,28 @@
+﻿---
+ID: "b8bf5005-4e1d-47db-9df2-34aca8a83a11"
+Parent: "6218618a-d663-4bc4-ab11-d2d8f2df2e97"
+Template: "6218618a-d663-4bc4-ab11-d2d8f2df2e97"
+Path: /sitecore/templates/Gymster/Folder Templates/Hero/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: multimedia/32x32/image.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {5C6C7AB1-537B-49D4-B6DE-099B1B2F6A9D}
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250217T071545Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

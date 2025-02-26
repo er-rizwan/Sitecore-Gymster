@@ -1,0 +1,25 @@
+﻿---
+ID: "c502a9bd-7286-4e18-84fd-edb644afaf57"
+Parent: "6bf1a47c-688a-4d0f-8c20-445d8b86f610"
+Template: "5c6c7ab1-537b-49d4-b6de-099b1b2f6a9d"
+Path: /sitecore/content/Gymster/Data/Hero Items/Hero
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfe8d73-05de-4e79-adea-cb91eab3cbf6"
+      Hint: Hero Title
+      Value: About Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T233905Z
+    - ID: "9fadc23b-c4e2-4199-852f-9016429eb675"
+      Hint: Secondary Link
+      Value: |
+        <link text="About" linktype="external" url="http://gymster.cm.local/" anchor="" title="About" target="_blank" />
+    - ID: "ca859092-144d-4b28-9212-3b79779de0f9"
+      Hint: Primary Link
+      Value: |
+        <link text="Home" anchor="Home" linktype="internal" class="" title=""  querystring="" id="{5D34D043-D025-4A9A-BB77-3280F31B0C98}" />

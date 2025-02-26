@@ -1,0 +1,18 @@
+﻿---
+ID: "57c1ad04-d44e-4a22-9a57-b038275f8f49"
+Parent: "daf3518f-d654-42b2-a7a6-ac3e26228e0a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Gymster/Parameter Template/Carousel Rendering Parameters/Carousel Section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250217T135626Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

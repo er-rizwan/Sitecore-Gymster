@@ -1,0 +1,14 @@
+﻿---
+ID: "6bf1a47c-688a-4d0f-8c20-445d8b86f610"
+Parent: "16e44580-c01f-4b4a-8eae-071d4e37a7b1"
+Template: "6218618a-d663-4bc4-ab11-d2d8f2df2e97"
+Path: /sitecore/content/Gymster/Data/Hero Items
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250217T101627Z

@@ -1,0 +1,30 @@
+﻿---
+ID: "16e44580-c01f-4b4a-8eae-071d4e37a7b1"
+Parent: "ea0b826f-ac14-4eae-b9db-40f0d467fda9"
+Template: "9079421e-9ef2-4278-8678-09be9c99f44b"
+Path: /sitecore/content/Gymster/Data
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {62758C27-BB2F-4787-95F7-3B9ED96BE9CA}
+    {BBBBEA4C-ECF2-4B04-9BC0-8D735D64E6B3}
+    {BD2090D8-096F-4BD8-A6C7-135F3AF53720}
+    {6218618A-D663-4BC4-AB11-D2D8F2DF2E97}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250130T114413Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

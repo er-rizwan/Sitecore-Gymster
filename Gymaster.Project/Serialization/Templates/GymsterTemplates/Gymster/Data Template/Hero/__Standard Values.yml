@@ -1,0 +1,22 @@
+﻿---
+ID: "03c3aa1e-aff4-4321-9dae-94591861f7bf"
+Parent: "5c6c7ab1-537b-49d4-b6de-099b1b2f6a9d"
+Template: "5c6c7ab1-537b-49d4-b6de-099b1b2f6a9d"
+Path: /sitecore/templates/Gymster/Data Template/Hero/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: business/32x32/businessman.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T233516Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

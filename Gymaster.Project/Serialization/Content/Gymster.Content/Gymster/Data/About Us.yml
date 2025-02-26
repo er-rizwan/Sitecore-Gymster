@@ -1,0 +1,14 @@
+﻿---
+ID: "ece92ea1-fdb3-429e-8379-8235b1126a52"
+Parent: "16e44580-c01f-4b4a-8eae-071d4e37a7b1"
+Template: "62758c27-bb2f-4787-95f7-3b9ed96be9ca"
+Path: /sitecore/content/Gymster/Data/About Us
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250217T062628Z
